@@ -1,9 +1,10 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
 android {
-    namespace 'com.example.footballmanager_pj'
+    namespace 'com.sejongunivclub.footballmanager_pj'
 }
 
 apply from: "../base-compose-build.gradle"
@@ -28,6 +29,9 @@ dependencies {
     implementation project(':features:feature-clubpage')
     implementation project(':features:feature-memberinfo')
 
-
+    implementation platform('com.google.firebase:firebase-bom:32.8.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging:21.1.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
 
 }

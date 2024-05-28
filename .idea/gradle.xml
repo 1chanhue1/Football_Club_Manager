@@ -4,8 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleJvm" value="jbr-17" />
         <option name="modules">
@@ -21,6 +19,7 @@
             <option value="$PROJECT_DIR$/features/feature-joinclub" />
             <option value="$PROJECT_DIR$/features/feature-login" />
             <option value="$PROJECT_DIR$/features/feature-makeclub" />
+            <option value="$PROJECT_DIR$/features/feature-map" />
             <option value="$PROJECT_DIR$/features/feature-memberinfo" />
             <option value="$PROJECT_DIR$/features/feature-mypage" />
             <option value="$PROJECT_DIR$/features/feature-navigation" />
@@ -39,6 +38,7 @@
             <option value="$PROJECT_DIR$/util/coroutine" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

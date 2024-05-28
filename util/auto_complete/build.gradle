@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.auto_complete'
+    namespace 'com.sejongunivclub.auto_complete'
 }
 
 apply from: "../../base-compose-build.gradle"
@@ -11,4 +11,5 @@ apply from: "../../base-compose-build.gradle"
 dependencies {
     implementation project(':ui-component')
     implementation project(':util:coroutine')
+    implementation project(':core')
 }
